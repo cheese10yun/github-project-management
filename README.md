@@ -1,8 +1,5 @@
 ## 프로젝트 소개
-Project Management Tool에는 Trello, JIRA, Redmine 등이 있습니다. 각각의 장단점이 있겠지만 **Github를 통해서 issue 관리, 일정 관리, 코드리뷰, 버그 리포트 등 다양한 일들을 Github 하나에서 다 관리 할수 있다는 장점이 있다고 생각합니다.**
-
-해당 프로젝트는 Github Project Management의 기능 및 전체적인 프로세스를 간단하게 소개합니다.
-
+Github를 이용해서 Project Management 하는 방법 및 전체적인 프로세스에 대해서 정리했습니다. **issue 관리, 일정 관리, 코드리뷰, 버그 리포트 등 다양한 일들을 Github 하나에서 다 관리할 수 있고 어느 하나 부족하다고 생각하지 않습니다.** 이미 Remote Repository로 Github를 사용 중 이리 사면 적극 추천해 드립니다. 
 
 ## 목차
 <!-- TOC -->
