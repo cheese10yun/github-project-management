@@ -53,9 +53,9 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
 ![이슈템플릿등로3](https://i.imgur.com/33inV6l.png)
 
 #### Issue Template 사용법
-![new_issue](https://i.imgur.com/MUmUWMF.png)
-![bug_report](https://i.imgur.com/e7XFZLt.png)
-![bug_report_등록](https://i.imgur.com/UeSSNPd.png)
+![new_issue](https://raw.githubusercontent.com/cheese10yun/github/master/images/Large%20GIF%20(1088x770).gif)
+
+위에서 등록한 Issue Template 기반으로 이슈를 생성할 수 있습니다.
 
 
 #### Issue Template 파일
