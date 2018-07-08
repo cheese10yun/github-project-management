@@ -1,36 +1,36 @@
-## 프로젝트 소개
+# 프로젝트 소개
 Github를 이용해서 Project Management 하는 방법 및 전체적인 프로세스에 대해서 정리했습니다. **issue 관리, 일정 관리, 코드리뷰, 버그 리포트 등 다양한 일들을 Github 하나에서 다 관리할 수 있고 어느 하나 부족하다고 생각하지 않습니다.** 이미 Remote Repository로 Github를 사용 중 이리 사면 적극 추천해 드립니다. 
 
 프로젝트는 지속해서 추가될 예정이라 상단의 Star, Watching 버튼을 클릭하시면 구독 알림 받을 수 있습니다.
 
-## 목차
+# 목차
 <!-- TOC -->
 
 - [프로젝트 소개](#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%86%8C%EA%B0%9C)
 - [목차](#%EB%AA%A9%EC%B0%A8)
 - [전체 플로우](#%EC%A0%84%EC%B2%B4-%ED%94%8C%EB%A1%9C%EC%9A%B0)
-- [Issue 발행](#issue-%EB%B0%9C%ED%96%89)
-    - [Issue란?](#issue%EB%9E%80)
-    - [Issue Template](#issue-template)
-        - [Issue Template 등록](#issue-template-%EB%93%B1%EB%A1%9D)
-        - [Issue Template 사용법](#issue-template-%EC%82%AC%EC%9A%A9%EB%B2%95)
-        - [Issue Template 파일](#issue-template-%ED%8C%8C%EC%9D%BC)
-- [Issue 작업](#issue-%EC%9E%91%EC%97%85)
-    - [등록된 issue 살펴 보기](#%EB%93%B1%EB%A1%9D%EB%90%9C-issue-%EC%82%B4%ED%8E%B4-%EB%B3%B4%EA%B8%B0)
-    - [Issue 연동](#issue-%EC%97%B0%EB%8F%99)
-    - [Issue 기반 Bracnh 생성](#issue-%EA%B8%B0%EB%B0%98-bracnh-%EC%83%9D%EC%84%B1)
-- [Pull Request[Code Review]](#pull-requestcode-review)
-    - [Jetbrains Pull Request](#jetbrains-pull-request)
-    - [GitHub Pull Request](#github-pull-request)
-    - [Pull Request 작성법](#pull-request-%EC%9E%91%EC%84%B1%EB%B2%95)
-    - [Code Review](#code-review)
+    - [Issue 발행](#issue-%EB%B0%9C%ED%96%89)
+        - [Issue란?](#issue%EB%9E%80)
+        - [Issue Template](#issue-template)
+            - [Issue Template 등록](#issue-template-%EB%93%B1%EB%A1%9D)
+            - [Issue Template 사용법](#issue-template-%EC%82%AC%EC%9A%A9%EB%B2%95)
+            - [Issue Template 파일](#issue-template-%ED%8C%8C%EC%9D%BC)
+    - [Issue 작업](#issue-%EC%9E%91%EC%97%85)
+        - [등록된 issue 살펴 보기](#%EB%93%B1%EB%A1%9D%EB%90%9C-issue-%EC%82%B4%ED%8E%B4-%EB%B3%B4%EA%B8%B0)
+        - [Issue 연동](#issue-%EC%97%B0%EB%8F%99)
+        - [Issue 기반 Bracnh 생성](#issue-%EA%B8%B0%EB%B0%98-bracnh-%EC%83%9D%EC%84%B1)
+    - [Pull Request[Code Review]](#pull-requestcode-review)
+        - [Jetbrains Pull Request](#jetbrains-pull-request)
+        - [GitHub Pull Request](#github-pull-request)
+        - [Pull Request 작성법](#pull-request-%EC%9E%91%EC%84%B1%EB%B2%95)
+        - [Code Review](#code-review)
 - [세부 사용법](#%EC%84%B8%EB%B6%80-%EC%82%AC%EC%9A%A9%EB%B2%95)
 - [ZenHub 사용법](#zenhub-%EC%82%AC%EC%9A%A9%EB%B2%95)
 - [Code Coverage](#code-coverage)
 
 <!-- /TOC -->
 
-## 전체 플로우
+# 전체 플로우
 1. Isuee 발급
 2. Issue 작업
 3. Pull Request Coide Review 진행
@@ -49,7 +49,6 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
 ![](https://github.com/cheese10yun/github/blob/master/images/issue-template-rg.gif?raw=true)
 
 환경에 앎맞는 Issue Template 생성을 합니다.
-
 
 
 #### Issue Template 사용법
@@ -148,13 +147,13 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 **위에서 작성한 resolved: #1 키워드 덕분에 소스코드가 해당 Branch에 적용됐으니 자동으로 #1에 대한 이슈는 close 처리됩니다.**
 
 
-## 세부 사용법
+# 세부 사용법
 * 추가 예정
 
-## ZenHub 사용법
+# ZenHub 사용법
 * 추가 예정
 
-## Code Coverage
+# Code Coverage
 * 추가 예정
 
 
