@@ -93,6 +93,7 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
 
 ### Issue 연동
 ![intellij-task](https://i.imgur.com/FtO0Xme.png)
+
 만약 Jetbrains의 IDE를 사용하고 계신다면 Task 연동을 통해서 Github와 연동하시는 것을 적극 권장해 드립니다.
 
 ### Issue 기반 Bracnh 생성
