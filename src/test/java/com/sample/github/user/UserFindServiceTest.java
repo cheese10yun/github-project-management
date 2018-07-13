@@ -48,7 +48,6 @@ public class UserFindServiceTest {
 
         //when
         userFindService.findById(anyLong());
-
     }
 
     private User buildUser() {
