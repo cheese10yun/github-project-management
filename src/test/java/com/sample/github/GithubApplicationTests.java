@@ -11,6 +11,7 @@ public class GithubApplicationTests {
 
     @Test
     public void contextLoads() {
+        GithubApplication.main(new String[]{});
     }
 
 }
