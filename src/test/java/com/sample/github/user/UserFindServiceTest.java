@@ -1,5 +1,6 @@
 package com.sample.github.user;
 
+import com.sample.github.model.Address;
 import com.sample.github.model.Email;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,6 +9,7 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyLong;
@@ -32,7 +34,11 @@ public class UserFindServiceTest {
         final User findUser = userFindService.findById(anyLong());
 
         //then
+        assertThat(findUser.getId(), is(notNullValue()));
         assertThat(findUser.getEmail().getValue(), is(user.getEmail().getValue()));
+        assertThat(findUser.getAddress().getAddress(), is(notNullValue()));
+        assertThat(findUser.getAddress().getStreet(), is(notNullValue()));
+        assertThat(findUser.getAddress().getZipCode(), is(notNullValue()));
     }
 
     @Test(expected = RuntimeException.class)
@@ -48,6 +54,11 @@ public class UserFindServiceTest {
     private User buildUser() {
         return User.builder()
                 .email(Email.builder().value("yun@test.com").build())
+                .address(Address.builder()
+                        .address("address")
+                        .street("street")
+                        .zipCode("zip-code")
+                        .build())
                 .build();
     }
 }
