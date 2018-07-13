@@ -13,3 +13,7 @@ before_install:
 branches:
  only:
     - master
+
+notifications:
+  slack: cheese-dev:JXKSTVY4wHsMPbJi2uoKtyxs
+  email: false
