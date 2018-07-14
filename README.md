@@ -153,9 +153,9 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 # CI & Test Coverage
 ![](https://i.imgur.com/G5jo0Ty.png)
 
-[GitHub Marketplace](https://github.com/marketplace/category/continuous-integration) Public Repository를 이용하면 대부분 무료로 이용 가능합니다. **본 포스팅에서는  CI는 Travis CI, Test Coverage는 Coveralls를 이용해서 진행하겠습니다.** 언어의 특성 및 개인에 기호에 맞는 제품을 사용하시면 됩니다.
+[GitHub Marketplace](https://github.com/marketplace/category/continuous-integration) Public Repository를 이용하면 대부분 무료로 이용 가능합니다. **본 포스팅에서는  CI는 Travis CI, Test Coverage는 Coveralls를 이용해서 진행하겠습니다.**
 
-전체적인 플로우를 설명하는 것이 목적 이리서 특정 툴에 대한 직접적인 사용법을 다루지는 않겠습니다.
+전체적인 플로우를 설명하는 것이 목적 이리서 특정 툴에 대한 직접적인 사용법을 다루지는 않겠습니다. 언어의 특성 및 개인에 기호에 맞는 제품을 사용하시면 됩니다.
 
 ## 전체 플로우
 1. Pull Request 요청 -> Code Review 진행
