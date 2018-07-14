@@ -26,9 +26,10 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
         - [GitHub Pull Request](#github-pull-request)
         - [Pull Request 작성법](#pull-request-%EC%9E%91%EC%84%B1%EB%B2%95)
         - [Code Review](#code-review)
+- [배포](#%EB%B0%B0%ED%8F%AC)
+- [Test Coverage](#test-coverage)
 - [세부 사용법](#%EC%84%B8%EB%B6%80-%EC%82%AC%EC%9A%A9%EB%B2%95)
 - [ZenHub 사용법](#zenhub-%EC%82%AC%EC%9A%A9%EB%B2%95)
-- [Code Coverage](#code-coverage)
 
 <!-- /TOC -->
 
@@ -148,6 +149,13 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 
 **위에서 작성한 resolved: #1 키워드 덕분에 소스코드가 해당 Branch에 적용됐으니 자동으로 #1에 대한 이슈는 close 처리됩니다.**
 
+# 배포
+![](https://i.imgur.com/7YUR3rw.png)
+
+[GitHub Marketplace에서 지원해주는 CI 제품들입니다.](https://github.com/marketplace/category/continuous-integration) Public Repository를 이용하면 대부분 무료로 이용 가능합니다. 저같은 경우에는 Travi CI를 주로 이용합니다.
+
+# Test Coverage
+* 추가 예정
 
 # 세부 사용법
 * 추가 예정
@@ -155,7 +163,6 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 # ZenHub 사용법
 * 추가 예정
 
-# Code Coverage
-* 추가 예정
+
 
 
