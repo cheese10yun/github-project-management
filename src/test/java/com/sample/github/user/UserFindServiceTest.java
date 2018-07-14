@@ -23,7 +23,6 @@ public class UserFindServiceTest {
     @Mock
     private UserRepository userRepository;
 
-
     @Test
     public void findById_유저가있을경우_해당유저리턴() {
         //given
