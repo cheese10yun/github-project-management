@@ -160,7 +160,7 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 ## 전체 플로우
 1. Pull Request 요청 -> Code Review 진행
 2. Code Review 완료 -> 특정 Branch에 반영
-3. 특정 Branch 수정시 자동 CI 작업 진행 -> 테스트 코드 실행
+3. 특정 Branch 수정시 자동 CI Build 작업 진행 -> 테스트 코드 실행
 4. 테스트 커버지리 표시
 
 ## Pull Request & Code Review
