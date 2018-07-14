@@ -30,6 +30,10 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
     - [전체 플로우](#%EC%A0%84%EC%B2%B4-%ED%94%8C%EB%A1%9C%EC%9A%B0)
     - [Pull Request & Code Review](#pull-request--code-review)
     - [테스트 커버지리 표시](#%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84%EC%A7%80%EB%A6%AC-%ED%91%9C%EC%8B%9C)
+- [Wiki](#wiki)
+    - [Wiki 등록](#wiki-%EB%93%B1%EB%A1%9D)
+    - [GitHub 작성](#github-%EC%9E%91%EC%84%B1)
+    - [Local 작성](#local-%EC%9E%91%EC%84%B1)
 - [세부 사용법](#%EC%84%B8%EB%B6%80-%EC%82%AC%EC%9A%A9%EB%B2%95)
 - [ZenHub 사용법](#zenhub-%EC%82%AC%EC%9A%A9%EB%B2%95)
 
@@ -177,6 +181,23 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 위에서 Merge pull request를 통해서 해당 작업(issue)을 반영했다면 Travis가 Build 할 때 작성된 Test Code 기반으로 Coverage 정보를 위처럼 자동으로 코멘드를 추가해줍니다.
 
 누군가가 테스트 코드를 작성하지 않았다면 `Change from base` 항목에서 - 표시가 됩니다. **이렇게 해당 작업마다 커버리지를 표시하는 것이 전체 커버리지를 높이고 그 값을 유지하는 좋은 방법이라고 생각합니다.**
+
+# Wiki
+GitHub에서는 기본적인 WIKI 기능을 제공해줍니다. 
+
+## Wiki 등록
+![](https://i.imgur.com/PYWJdy7.png)
+
+![](https://github.com/cheese10yun/github/blob/master/images/wiki.gif?raw=true)
+
+## GitHub 작성
+![](https://i.imgur.com/t3LuQsm.png)
+GitHub에서 위키를 작성할 수 있습니다.
+
+## Local 작성
+![](https://i.imgur.com/Ff6Heeb.png)
+**위키를 로컬환경에서 작성해서 Push 할 수 있습니다. 이렇게 사용하시는 것을 추천 드립니다.**
+
 
 
 # 세부 사용법
