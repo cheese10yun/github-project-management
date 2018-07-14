@@ -186,8 +186,6 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 GitHub에서는 기본적인 WIKI 기능을 제공해줍니다. 
 
 ## Wiki 등록
-![](https://i.imgur.com/PYWJdy7.png)
-
 ![](https://github.com/cheese10yun/github/blob/master/images/wiki.gif?raw=true)
 
 ## GitHub 작성
