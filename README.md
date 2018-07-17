@@ -215,10 +215,11 @@ Public Repository를 이용 중이라면 무료로 사용 가능합니다. Priva
 **설치는 크롬 확장도구에서 다운로드 받으실 수 있습니다.**
 
 ## 기본 칸반보드
+![](https://i.imgur.com/GvP6XPh.png)
 
-기본적인 구조는 New Issue, Icebox, Backlog, In Progress, Review/QA, Done을 갖습니다.
+기본적인 구조는 New Issue, Icebox, Backlog, In Progress, Review/QA, Done을 갖습니다. 각자 본인의 프로젝트와 성향에 맞게 사용하시면 됩니다. 
 
-각자 본인의 프로젝트와 성향에 맞게 사용하시면 됩니다. 저 같은 경우에는 생각나는 모든 것들을 New Issue 항목에 추가하고 우선순위가 낮고 당장 필요 없는 작업은 Icebox, 우선순위가 높은 작업은 Backlog 항목에 넣습니다. 진행 중인 작업은 In Progress 나머지 Review/QA는 Pull Request 항목, Done은 Issue가 Close 되면 자동으로 Done으로 가게 됩니다.
+저 같은 경우에는 생각나는 모든 것들을 New Issue 항목에 추가하고 우선순위가 낮고 당장 필요 없는 작업은 Icebox, 우선순위가 높은 작업은 Backlog 항목에 넣습니다. 진행 중인 작업은 In Progress 나머지 Review/QA는 Pull Request 항목, Issue가 Close 되면 자동으로 Close으로 가게 됩니다.
 
 **이처럼 모든 항목에 대해서 Issue로 관리하고 해당 Issue Number 기반으로 Branch가 생성되면서 코드리뷰, 반영 작업 사이클이 돌아가는 구조입니다.**
 
