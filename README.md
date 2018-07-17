@@ -34,7 +34,7 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
     - [Wiki 등록](#wiki-%EB%93%B1%EB%A1%9D)
     - [GitHub 작성](#github-%EC%9E%91%EC%84%B1)
     - [Local 작성](#local-%EC%9E%91%EC%84%B1)
-- [`ZenHub 사용법](#zenhub-%EC%82%AC%EC%9A%A9%EB%B2%95)
+- [ZenHub 사용법](#zenhub-%EC%82%AC%EC%9A%A9%EB%B2%95)
     - [기본 칸반보드](#%EA%B8%B0%EB%B3%B8-%EC%B9%B8%EB%B0%98%EB%B3%B4%EB%93%9C)
     - [Milestone 적극 활용](#milestone-%EC%A0%81%EA%B7%B9-%ED%99%9C%EC%9A%A9)
     - [Epic 적극 활용](#epic-%EC%A0%81%EA%B7%B9-%ED%99%9C%EC%9A%A9)
@@ -201,7 +201,7 @@ GitHub에서 위키를 작성할 수 있습니다.
 **위키를 로컬환경에서 작성해서 Push 할 수 있습니다. 이렇게 사용하시는 것을 추천 드립니다.**
 
 
-# `ZenHub 사용법
+# ZenHub 사용법
 
 ![](https://i.imgur.com/F5c78MC.png)
 
