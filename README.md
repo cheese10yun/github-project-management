@@ -22,7 +22,7 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
     - [Issue 작업](#issue-%EC%9E%91%EC%97%85)
         - [등록된 issue 살펴 보기](#%EB%93%B1%EB%A1%9D%EB%90%9C-issue-%EC%82%B4%ED%8E%B4-%EB%B3%B4%EA%B8%B0)
         - [Issue 연동](#issue-%EC%97%B0%EB%8F%99)
-        - [Issue 기반 Branch 생성](#issue-%EA%B8%B0%EB%B0%98-bracnh-%EC%83%9D%EC%84%B1)
+        - [Issue 기반 Branch 생성](#issue-%EA%B8%B0%EB%B0%98-branch-%EC%83%9D%EC%84%B1)
     - [Pull Request[Code Review]](#pull-requestcode-review)
         - [Jetbrains Pull Request](#jetbrains-pull-request)
         - [GitHub Pull Request](#github-pull-request)
