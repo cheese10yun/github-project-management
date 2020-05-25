@@ -10,38 +10,46 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
 # 목차
 <!-- TOC -->
 
-- [프로젝트 소개](#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%86%8C%EA%B0%9C)
-- [목차](#%EB%AA%A9%EC%B0%A8)
-- [전체 플로우](#%EC%A0%84%EC%B2%B4-%ED%94%8C%EB%A1%9C%EC%9A%B0)
-    - [Issue 발행](#issue-%EB%B0%9C%ED%96%89)
-        - [Issue란?](#issue%EB%9E%80)
-        - [Issue Template](#issue-template)
-            - [Issue Template 등록](#issue-template-%EB%93%B1%EB%A1%9D)
-            - [Issue Template 사용법](#issue-template-%EC%82%AC%EC%9A%A9%EB%B2%95)
-            - [Issue Template 파일](#issue-template-%ED%8C%8C%EC%9D%BC)
-    - [Issue 작업](#issue-%EC%9E%91%EC%97%85)
-        - [등록된 issue 살펴 보기](#%EB%93%B1%EB%A1%9D%EB%90%9C-issue-%EC%82%B4%ED%8E%B4-%EB%B3%B4%EA%B8%B0)
-        - [Issue 연동](#issue-%EC%97%B0%EB%8F%99)
-        - [Issue 기반 Branch 생성](#issue-%EA%B8%B0%EB%B0%98-branch-%EC%83%9D%EC%84%B1)
-    - [Pull Request[Code Review]](#pull-requestcode-review)
-        - [Jetbrains Pull Request](#jetbrains-pull-request)
-        - [GitHub Pull Request](#github-pull-request)
-        - [Pull Request 작성법](#pull-request-%EC%9E%91%EC%84%B1%EB%B2%95)
-        - [Code Review](#code-review)
+- [프로젝트 소개](#프로젝트-소개)
+- [목차](#목차)
+- [전체 플로우](#전체-플로우)
+  - [Issue 발행](#issue-발행)
+    - [Issue란?](#issue란)
+    - [Issue Template](#issue-template)
+      - [Issue Template 등록](#issue-template-등록)
+      - [Issue Template 사용법](#issue-template-사용법)
+      - [Issue Template 파일](#issue-template-파일)
+  - [Issue 작업](#issue-작업)
+    - [등록된 issue 살펴 보기](#등록된-issue-살펴-보기)
+    - [Issue 연동](#issue-연동)
+    - [Issue 기반 Branch 생성](#issue-기반-branch-생성)
+  - [Pull Request[Code Review]](#pull-requestcode-review)
+    - [Jetbrains Pull Request](#jetbrains-pull-request)
+    - [GitHub Pull Request](#github-pull-request)
+    - [Pull Request 작성법](#pull-request-작성법)
+    - [Code Review](#code-review)
 - [CI & Test Coverage](#ci--test-coverage)
-    - [전체 플로우](#%EC%A0%84%EC%B2%B4-%ED%94%8C%EB%A1%9C%EC%9A%B0)
-    - [Pull Request & Code Review](#pull-request--code-review)
-    - [테스트 커버지리 표시](#%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84%EC%A7%80%EB%A6%AC-%ED%91%9C%EC%8B%9C)
+  - [전체 플로우](#전체-플로우-1)
+  - [Pull Request & Code Review](#pull-request--code-review)
+  - [테스트 커버지리 표시](#테스트-커버지리-표시)
 - [Wiki](#wiki)
-    - [Wiki 등록](#wiki-%EB%93%B1%EB%A1%9D)
-    - [GitHub 작성](#github-%EC%9E%91%EC%84%B1)
-    - [Local 작성](#local-%EC%9E%91%EC%84%B1)
-- [ZenHub 사용법](#zenhub-%EC%82%AC%EC%9A%A9%EB%B2%95)
-    - [기본 칸반보드](#%EA%B8%B0%EB%B3%B8-%EC%B9%B8%EB%B0%98%EB%B3%B4%EB%93%9C)
-    - [Milestone 적극 활용](#milestone-%EC%A0%81%EA%B7%B9-%ED%99%9C%EC%9A%A9)
-    - [Epic 적극 활용](#epic-%EC%A0%81%EA%B7%B9-%ED%99%9C%EC%9A%A9)
-    - [Issue 연결](#issue-%EC%97%B0%EA%B2%B0)
-    - [Filter 기능](#filter-%EA%B8%B0%EB%8A%A5)
+  - [Wiki 등록](#wiki-등록)
+  - [GitHub 작성](#github-작성)
+  - [Local 작성](#local-작성)
+- [ZenHub 사용법](#zenhub-사용법)
+  - [기본 칸반보드](#기본-칸반보드)
+  - [Milestone 적극 활용](#milestone-적극-활용)
+  - [Epic 적극 활용](#epic-적극-활용)
+  - [Issue 연결](#issue-연결)
+  - [Filter 기능](#filter-기능)
+- [Github Action](#github-action)
+  - [Github Action 만들기](#github-action-만들기)
+    - [gradle.yml](#gradleyml)
+    - [Action Workflows](#action-workflows)
+    - [Badge](#badge)
+  - [Schedule With Spring Batch](#schedule-with-spring-batch)
+    - [Schedule Github action 생성](#schedule-github-action-생성)
+    - [Batch Code](#batch-code)
 
 <!-- /TOC -->
 
@@ -259,3 +267,146 @@ Issue 13과 해당 이슈를 작업해서 Pull Request Issue 17 번이 ZenHub �
 Repo를 제외하고 따로 설명을 진행하지는 않겠습니다.
 
 Repo는 여러 Repo를 한꺼번에 보여줄 수 있습니다. 가령 **Back-end, Front-end Repository가 각각 두 개 이고 그 Repo를 한 보드에 표시할 수 있습니다.** 실무 개발에서는 여러 Repo가 있기 때문에 이것을 한 보드에서 볼 수 있다는 것은 정말 좋은 Filter 기능이라고 생각합니다.
+
+
+> 해당 코드는 [Github](https://github.com/cheese10yun/github-action)에서 확인할 수 있습니다.
+
+# Github Action
+
+Github Action을 통해서 깃허브 자체적으로 CI & CD를 진행할 수 있습니다. Github에대한 자세한 설명은 [공식홈페이지](https://github.com/features/actions)를 참고 해주세요. 본 포스팅에서는 Spring Boot & Gradle 환경에서 간단한 빌드를 다룰 예정입니다.
+
+
+## Github Action 만들기
+
+Github Repository 상단에 `Actions`을 클릭 합니다.
+
+![](https://raw.githubusercontent.com/cheese10yun/github-action/master/images/github-action-1.png)
+
+Java With Gradle Action의 `Set up this workflow` 버튼을 클릭합니다.
+
+
+![](https://raw.githubusercontent.com/cheese10yun/github-action/master/images/github-action-2.png)
+
+`Java With Gradle Action`의 YML을 생성합니다.
+
+### gradle.yml
+
+```yml
+name: Java CI with Gradle
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    - name: Build with Gradle
+      run: ./gradlew build
+```
+
+`on.push`, `on.pull_request`을 보면 `master` branch에 `push`, `pull_request` 이벤트가 발생하는 경우 해당 `jobs`가 실행됩니다. `build`에서는 JDK 설정, Gradle 설정을 진행하고 최종적으로 `./gradlew build` 진행합니다.
+
+
+
+### Action Workflows
+
+![](https://raw.githubusercontent.com/cheese10yun/github-action/master/images/github-action-3.png)
+
+`master`에 `push`, `pull_request` 이벤트가 발생할 경우 해당 Github Action이 동작하게 됩니다.
+
+![](https://raw.githubusercontent.com/cheese10yun/github-action/master/images/github-action-4.png)
+
+Event를 클릭하면 상세 Github Actuon에 대한 내용을 살펴볼 수 있습니다.
+
+### Badge
+
+![](https://raw.githubusercontent.com/cheese10yun/github-action/master/images/github-action-5.png)
+
+
+오른쪽 상단에 `Create status badge` 버튼을 클릭해서 Badge를 Markdown Copy를 진행할 수 있습니다. ![Java CI with Gradle](https://github.com/cheese10yun/github-action/workflows/Java%20CI%20with%20Gradle/badge.svg?branch=master)
+
+## Schedule With Spring Batch
+
+Github Action은 `schedule` 기능을 제공하고 있습니다. Spring Batch를 이용하여 간단한 schedule Job을 작성해보겠습니다.
+
+### Schedule Github action 생성
+```yml
+# simple-job.yml
+name: Simple Job
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+      - name: Build with Gradle
+        run: ./gradlew build -x test
+      - name: Commpany Save Job Execute
+        run: java -jar -Dspring.batch.job.names=simpleJob ./build/libs/action-0.0.1-SNAPSHOT.jar
+```
+위에서 생성한 `gradle.yml`을 기반으로 schedule Gtihub Action을 위한 `simple-job.yml`을 생성합니다. `cron: '*/5 * * * *'` 해당 설정으로 5분마다 스케줄을 지정합니다.
+
+### Batch Code
+
+```kotlin
+@Configuration
+class SimpleJobConfig(
+    private val jobBuilderFactory: JobBuilderFactory,
+    private val stepBuilderFactory: StepBuilderFactory
+) {
+
+    @Bean
+    fun simpleJob(): Job {
+        return jobBuilderFactory.get("simpleJob")
+            .incrementer(RunIdIncrementer())
+            .start(simpleStep())
+            .build()
+    }
+
+    private fun simpleStep(): Step {
+        return stepBuilderFactory.get("simpleStep1")
+            .tasklet { _, _ ->
+
+                Unirest.post("https://hooks.slack.com/services/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")
+                    .header("Content-Type", "application/json")
+                    .body("""
+                        {
+                            "text": "${LocalDateTime.now()}"
+                        }
+                    """.trimIndent())
+                    .asString()
+
+                RepeatStatus.FINISHED
+            }
+            .build()
+    }
+}
+```
+Slack 으로 현재 시간을 보내는 메시지를 전송하는 Job입니다.
+
+![](https://raw.githubusercontent.com/cheese10yun/github-action/master/images/simple-github.png)
+
+Simple Job Action에 대한 스케줄을 확인할 수 있습니다. 이처럼 schedule 기능을 이용하면 간단하게 Schedule Batch Job을 구성할 수 있습니다.
