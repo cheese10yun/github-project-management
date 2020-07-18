@@ -28,6 +28,8 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
     - [GitHub Pull Request](#github-pull-request)
     - [Pull Request 작성법](#pull-request-작성법)
     - [Code Review](#code-review)
+    - [IntelliJ 기반 Code Review](#intellij-기반-code-review)
+  - [Code Review](#code-review-1)
 - [CI & Test Coverage](#ci--test-coverage)
   - [전체 플로우](#전체-플로우-1)
   - [Pull Request & Code Review](#pull-request--code-review)
@@ -168,6 +170,33 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 위에서 작성한 comment가 해결됬었다면 `Merge pull request` 버튼을 눌러서 해당 pull request를 반영합니다. 반영이 완료되고 해당 branch가 더는 필요 없다고 판단되시면 `Delete branch` 버튼을 통해서 Remote에 있는 Branch를 삭제할 수 있습니다.
 
 **위에서 작성한 resolved: #1 키워드 덕분에 소스코드가 해당 Branch에 적용됐으니 자동으로 #1에 대한 이슈는 close 처리됩니다.**
+
+### IntelliJ 기반 Code Review
+## Code Review
+
+![](images/intellij-pr-3.png)
+
+`Actions`에서 `View Pullrequests`을 통해서 현재 PR을 확인할 수 있습니다.
+
+
+![](/images/intellij-pr-4.png)
+
+`state:open `을 통해서 현재 open 상태이 PR 리스트를 확인할 수 있고 우측에는 코드 리뷰 대상 파일이 있고 `User.java` 파일을 클릭해서 Diff를 확인할 수 있습니다.
+
+![](/images/intellij-pr-5.png)
+해당 코드에 대해서 코멘트를 추가하고 싶은 경우 `+` 버튼을 클릭해서 코멘트를 달 수 있습니다.
+
+![](/images/intellij-pr-6.png)
+
+![](/images/intellij-pr-7.png)
+
+이렇게 추가한 코멘트는 Github, Intellij에서도 확인할 수 있으며 코멘트에 대한 코멘트도 추가할 수 있습니다.
+
+![](/images/intellij-pr-8.png)
+또 인텔리제이에서 머지도 가능합니다. `Merge` 버튼을 눌러서 머지를 진행합니다. [인텔리제이 PR & Code Review #24](https://github.com/cheese10yun/github-project-management/pull/24)는 실제 PR이 머지 된 것을 확인할 수 있습니다.
+
+![](/images/intellij-pr-9.png)
+위처럼 질이를 통해서 PR에 `status`, `author`, `assignee`을 기반으로 검색을 할 수 있습니다.
 
 # CI & Test Coverage
 ![](https://i.imgur.com/G5jo0Ty.png)
