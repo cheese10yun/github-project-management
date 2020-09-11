@@ -73,7 +73,7 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
 #### Issue Template 등록
 ![](https://github.com/cheese10yun/github/blob/master/images/issue-template-rg.gif?raw=true)
 
-환경에 앎맞는 Issue Template 생성을 합니다.
+환경에 알맞는 Issue Template 생성을 합니다.
 
 
 #### Issue Template 사용법
@@ -99,8 +99,36 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
 └── src
 ```
 위에서 등록된 Issue Template은 .github/ISSUE_TEMPLATE 디렉터리에 생성된 것을 확인할 수 있습니다.
-**각자의 맞는 한경에 따라서 Issue Template를 작성하시면 됩니다.** 저 같은 경우에는 Back-end를 주로 담당하기 때문에 bug tempalte 에서 서버로그, response body 값을 등록했습니다.
+**각자의 맞는 환경에 따라서 Issue Template를 작성하시면 됩니다.** 저 같은 경우에는 Back-end를 주로 담당하기 때문에 bug template 에서 서버로그, response body 값을 등록했습니다.
 
+같은 방법으로 Pull Request의 템플릿도 생성할 수 있습니다.
+
+```
+.
+├── .github
+│   └── PULL_REQUEST_TEMPLATE.md
+```
+
+#### Issue Template 커스터마이징
+
+아래의 경우는 `.github/ISSUE_TEMPLATE/custom.md` 의 예시입니다.
+
+GitHub에서 `---`와 `---` 사이의 정보를 읽어, 이슈 생성 시 선택할 수 있는 템플릿 메뉴를 제공합니다.
+
+```
+---	
+name: Hello Issue
+about: Custom Issue Template Test
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+👋 Custom Issue Template Test
+```
+
+따라서 로컬에서 코드를 직접 수정하시는 경우에는 상단의 `---`와 `---` 부분은 유지한 채, 정보와 템플릿 내용만 수정하시는 것을 추천합니다.
 
 ## Issue 작업
 
