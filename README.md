@@ -101,6 +101,14 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
 위에서 등록된 Issue Template은 .github/ISSUE_TEMPLATE 디렉터리에 생성된 것을 확인할 수 있습니다.
 **각자의 맞는 환경에 따라서 Issue Template를 작성하시면 됩니다.** 저 같은 경우에는 Back-end를 주로 담당하기 때문에 bug template 에서 서버로그, response body 값을 등록했습니다.
 
+같은 방법으로 Pull Request의 템플릿도 생성할 수 있습니다.
+
+```
+.
+├── .github
+│   └── PULL_REQUEST_TEMPLATE.md
+```
+
 #### Issue Template 커스터마이징
 
 아래의 경우는 `.github/ISSUE_TEMPLATE/custom.md` 의 예시입니다.
