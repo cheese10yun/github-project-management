@@ -11,5 +11,4 @@ about: Code Reciew
 * [JIRA - ](...)
 
 ## 적용 모듈
-* xxx-sercice
-
+* xxx-service
