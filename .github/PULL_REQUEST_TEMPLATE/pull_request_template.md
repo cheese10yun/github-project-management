@@ -1,9 +1,3 @@
----
-name: Pull Request
-about: Code Reciew
-
----
-
 ## 관련 내용
 
 
