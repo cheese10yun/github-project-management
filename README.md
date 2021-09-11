@@ -224,7 +224,7 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 또 인텔리제이에서 머지도 가능합니다. `Merge` 버튼을 눌러서 머지를 진행합니다. [인텔리제이 PR & Code Review #24](https://github.com/cheese10yun/github-project-management/pull/24)는 실제 PR이 머지 된 것을 확인할 수 있습니다.
 
 ![](/images/intellij-pr-9.png)
-위처럼 질이를 통해서 PR에 `status`, `author`, `assignee`을 기반으로 검색을 할 수 있습니다.
+위처럼 질의를 통해서 PR에 `status`, `author`, `assignee`을 기반으로 검색을 할 수 있습니다.
 
 # CI & Test Coverage
 ![](https://i.imgur.com/G5jo0Ty.png)
