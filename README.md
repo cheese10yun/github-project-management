@@ -56,9 +56,9 @@ Github를 이용해서 Project Management 하는 방법 및 전체적인 프로�
 <!-- /TOC -->
 
 # 전체 플로우
-1. Isuee 발급
+1. Issue 발급
 2. Issue 작업
-3. Pull Request Coide Review 진행
+3. Pull Request Code Review 진행
 4. Issue 반영
 
 ## Issue 발행
@@ -152,7 +152,7 @@ assignees: ''
 ![issue-base-branch](https://i.imgur.com/R8aFoCL.png)
 위에서 언급한 Jetbrains의 Task 연동을 하지 않아도 크게 상관없습니다. Task의 갖는 가장 큰 기능은 Github 이슈 기반으로 Branch를 생성을 쉽게 도와주는 것으로 생각합니다. **즉 Github에서 생성된 Issue 기반으로 Branch를 생성하는 것이 핵심입니다.**
 
-Github Issue는 각자의 유니크한 값인 Issue Number를 갖습니다. 또 그 Iusse Number 기반으로 Branch를 이름을 갖게 하여 해당 Branch의 명확한 작업의 의도를 갖게 할 수 있습니다.
+Github Issue는 각자의 유니크한 값인 Issue Number를 갖습니다. 또 그 Issue Number 기반으로 Branch를 이름을 갖게 하여 해당 Branch의 명확한 작업의 의도를 갖게 할 수 있습니다.
 
 Branch 네이밍을 통해서 해당 작업의 의도를 갖게 하는 것은 한계가 있습니다. 또 동료 개발자들이 정확히 무슨 작업을 하는지도 Branch 네이밍을 통해서 유추해내기도 어렵고, 해당 작업이 반영(머지)될 때 도 마찬가지입니다. 이러한 문제들을 Issue Number 기반으로 Branch를 생성(Issue Number Branch 네이밍에 추가)하면 아주 명확해집니다.
 
@@ -186,9 +186,9 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 리뷰어가 요청받은 Pull Request로 가서 `Add your review` 버튼을 클릭합니다.
 
 ![리뷰진행](https://i.imgur.com/k11vL5w.png)
-소스코드에 대한 질문 등 다양한 comment를 남기는 방식으로 pull reqeust가 진행합니다.
+소스코드에 대한 질문 등 다양한 comment를 남기는 방식으로 pull request가 진행합니다.
 
-* Approve: 코드에 대한 의문점이 없다면 승인 .
+* Approve: 코드에 대한 의문점이 없다면 승인.
 * Comment: 간단한 피드백 제출
 * Request changes: 해당 코드에 문제가 있다고 판단되며 코드를 반드시 수정 요구
 
@@ -204,7 +204,7 @@ Github Code 텝에서 `New Pull Request` 버튼을 클릭해서 Pull Request를 
 
 ![](images/intellij-pr-3.png)
 
-`Actions`에서 `View Pullrequests`을 통해서 현재 PR을 확인할 수 있습니다.
+`Actions`에서 `View Pull Requests`을 통해서 현재 PR을 확인할 수 있습니다.
 
 
 ![](/images/intellij-pr-4.png)
@@ -275,9 +275,9 @@ GitHub에서 위키를 작성할 수 있습니다.
 수 많은 이슈들이 발급되면 그것을 한눈에 보는 것은 기존 UI에서는 어렵습니다. 이런 문제를 칸반보드 형식으로 해결해주는 것이 ZenHub 입니다.
 
 ![](https://cristinasantamarina.files.wordpress.com/2015/06/zenhub-task-board.png)
-Public Repository를 이용 중이라면 무료로 사용 가능합니다. Private Repository는 비용을 지급하셔 야합니다.
+Public Repository를 이용 중이라면 무료로 사용 가능합니다. Private Repository는 비용을 지급하셔야 합니다.
 
-물론 GitHub에서 제공해주는 Proeject도 칸반보드를 제공해주어서 대안이 되지만 여러 레파지토리에 대한 표시, 애픽 기능 등 다양한 기능들을 제공해주기 때문에 개인적으로 ZenHub를 추천해 드립니다.
+물론 GitHub에서 제공해주는 Project도 칸반보드를 제공해주어서 대안이 되지만 여러 레파지토리에 대한 표시, 애픽 기능 등 다양한 기능들을 제공해주기 때문에 개인적으로 ZenHub를 추천해 드립니다.
 
 **설치는 크롬 확장도구에서 다운로드 받으실 수 있습니다.**
 
@@ -330,7 +330,7 @@ Repo는 여러 Repo를 한꺼번에 보여줄 수 있습니다. 가령 **Back-en
 
 # Github Action
 
-Github Action을 통해서 깃허브 자체적으로 CI & CD를 진행할 수 있습니다. Github에대한 자세한 설명은 [공식홈페이지](https://github.com/features/actions)를 참고 해주세요. 본 포스팅에서는 Spring Boot & Gradle 환경에서 간단한 빌드를 다룰 예정입니다.
+Github Action을 통해서 깃허브 자체적으로 CI & CD를 진행할 수 있습니다. Github에 대한 자세한 설명은 [공식홈페이지](https://github.com/features/actions)를 참고 해주세요. 본 포스팅에서는 Spring Boot & Gradle 환경에서 간단한 빌드를 다룰 예정입니다.
 
 
 ## Github Action 만들기
@@ -386,7 +386,7 @@ jobs:
 
 ![](https://raw.githubusercontent.com/cheese10yun/github-action/master/images/github-action-4.png)
 
-Event를 클릭하면 상세 Github Actuon에 대한 내용을 살펴볼 수 있습니다.
+Event를 클릭하면 상세 Github Action에 대한 내용을 살펴볼 수 있습니다.
 
 ### Badge
 
@@ -424,7 +424,7 @@ jobs:
       - name: Commpany Save Job Execute
         run: java -jar -Dspring.batch.job.names=simpleJob ./build/libs/action-0.0.1-SNAPSHOT.jar
 ```
-위에서 생성한 `gradle.yml`을 기반으로 schedule Gtihub Action을 위한 `simple-job.yml`을 생성합니다. `cron: '*/5 * * * *'` 해당 설정으로 5분마다 스케줄을 지정합니다.
+위에서 생성한 `gradle.yml`을 기반으로 schedule Github Action을 위한 `simple-job.yml`을 생성합니다. `cron: '*/5 * * * *'` 해당 설정으로 5분마다 스케줄을 지정합니다.
 
 ### Batch Code
 
