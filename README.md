@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/cheese10yun/github-project-management.svg?branch=master)](https://travis-ci.org/cheese10yun/github-project-management)
 [![Coverage Status](https://coveralls.io/repos/github/cheese10yun/github-project-management/badge.svg)](https://coveralls.io/github/cheese10yun/github-project-management)
 [![codecov](https://codecov.io/gh/cheese10yun/github-project-management/branch/master/graph/badge.svg)](https://codecov.io/gh/cheese10yun/github-project-management)
-[![HitCount](http://hits.dwyl.io/cheese10yun/github-project-management.svg)](http://hits.dwyl.io/cheese10yun/github-project-management)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcheese10yun%2Fgithub-project-management&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 # 프로젝트 소개
 Github를 이용해서 Project Management 하는 방법 및 전체적인 프로세스에 대해서 정리했습니다. **issue 관리, 일정 관리, 코드리뷰, 버그 리포트 등 다양한 일들을 Github 하나에서 다 관리할 수 있고 어느 하나 부족하다고 생각하지 않습니다.** 이미 Remote Repository로 Github를 사용 중이시라면 적극 추천해 드립니다.
 
